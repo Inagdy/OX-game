@@ -8,10 +8,10 @@ void main() async {
 
   runApp(
     EasyLocalization(
-      supportedLocales: [Locale('en', 'US'), Locale('de', 'DE')],
+      supportedLocales: [Locale('en'), Locale('ar')],
       path:
           'assets/translations', // <-- change the path of the translation files
-      fallbackLocale: Locale('en', 'US'),
+      fallbackLocale: Locale('en', 'ar'),
       child: OxApp(),
     ),
   );

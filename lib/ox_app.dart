@@ -8,6 +8,7 @@ class OxApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ScreenUtilInit(
+      
       designSize: const Size(390, 844),
       minTextAdapt: true,
       splitScreenMode: true,
@@ -19,7 +20,7 @@ class OxApp extends StatelessWidget {
           ),
           home: const HomeScreen(),
         );
-      },B
+      },
     );
   }
 }
